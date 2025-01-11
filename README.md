@@ -72,16 +72,16 @@ This project fine-tunes the GPT-3.5 model to improve the efficiency and accuracy
 - **Scalability**:
   - Designed to handle concurrent requests with minimal latency.
 - **Example Outputs**:
-  ```json
   Input: "TV channels keep disappearing from my subscription!"
-  Output: {
+  Output:
+  ```json
+  {
     "Topic": "TV",
     "Problem": "Missing channels",
     "Customer_Dissatisfaction_Index": "High"
   }
 
-  ## Model Output and Metrics
-
+## Model Output and Metrics
 ### Performance
 - **Outperformed GPT-4** in domain-specific tasks, delivering more accurate and contextually relevant responses.
 - Improved accuracy and reduced ambiguity in complaint categorization and prioritization.
